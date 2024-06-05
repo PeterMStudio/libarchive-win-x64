@@ -1,13 +1,11 @@
-
+*~
 *.o
 *.obj
-
-!*.dll
-!*.lib
-!*.exe
+*.exe
+*.exp
 *.ilk
 *.la
-
+*.lib
 *.lo
 *.recipe
 *.sln
@@ -18,11 +16,8 @@
 !build/cmake/*.cmake
 .deps/
 .libs/
-
+bin/
 out/
-
-
-
 .dirstamp
 Makefile
 Makefile.in
@@ -32,7 +27,6 @@ bsdcat
 bsdcpio
 bsdtar
 bsdunzip
-
 build/autoconf/compile
 build/autoconf/config.guess
 build/autoconf/config.sub
@@ -52,7 +46,6 @@ build/libarchive/test/list.h
 build/pkgconfig/libarchive.pc
 build/tar/test/list.h
 build/unzip/test/list.h
-
 cat/test/list.h
 config.cache
 config.h
