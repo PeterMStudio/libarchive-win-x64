@@ -65,6 +65,8 @@ DartConfiguration.tcl
 cmake.tmp/
 .vs/
 .vscode/
+.idea
+cmake-build-*
 
 doc/html/*.html
 doc/man/*.1
